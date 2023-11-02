@@ -1,5 +1,5 @@
 # De-identification of facial videos while preserving remote physiological utility
-This is the official code repository of our BMVC 2023 paper "De-identification of facial videos while preserving remote physiological utility". Some small intro about our method. 
+This is the official code repository of our BMVC 2023 paper "De-identification of facial videos while preserving remote physiological utility". Our method can de-identify videos from machines, while preserving the visual quality and unerlying rPPG signals. For more details, please read our pubblication.
 
 [Paper](add link), [Poster](add link), [Video](add link)
 
