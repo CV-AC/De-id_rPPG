@@ -13,7 +13,7 @@ averaging the pixels from each frame to extract a temporal signal
 
 
 ![DEID](deid.png)
-Framework for de-identification that preserves rPPG signal and visual appearance. AE is trained to reconstruct the original video while being guided by the de-identification (defined through F<sub>id</sub>) and rPPG preservation (defined through F<sub>rppg</sub>)) constraints.
+Our framework for de-identification that preserves rPPG signal and visual appearance. AE is trained to reconstruct the original video while being guided by the de-identification (defined through F<sub>id</sub>) and rPPG preservation (defined through F<sub>rppg</sub>)) constraints.
 
 ## Dataset Preprocessing
 
