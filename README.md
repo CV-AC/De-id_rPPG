@@ -9,7 +9,7 @@ Add main figure
 
 The original videos are firstly preprocessed to crop and resizethe videos intro T=64 long video segments with 128x128 pixel frames. In the example code we assume the data used in pre-processed from PURE dataset, but can't provide the actual data or preprocessed files. Facial landmarks are computed with Dlib and saved into a .npy file, for each clip a binary mask is computed based on the landmarks than can be used for traditional methods. The strcuture of the data that can be used with our dataloader is: <br>
 Dataset1: <br>
-├── Sample1  <br>
+--- Sample1  <br>
 ├──├── blocks (containts [64,128,128] ordered segments of videos) <br>
 ├──├──├── 001.npy  <br>
 ├──├──├── XXX.npy <br>
