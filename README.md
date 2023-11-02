@@ -3,7 +3,9 @@ This is the official code repository of our BMVC 2023 paper "De-identification o
 
 [Paper](add link), [Poster](add link), [Video](add link)
 
-Add main figure
+![RPPGVIS](rppgvis.png)
+![DEID](deid.png)
+
 
 ## Dataset Preprocessing
 
