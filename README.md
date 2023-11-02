@@ -3,6 +3,12 @@ This is the official code repository of our BMVC 2023 paper "De-identification o
 
 [Paper](add link), [Poster](add link), [Video](add link)
 
+A) rPPG: Cardiac activity causes periodical variations in the reflected light inten-
+sity, noise is also captured (from e.g., lighting, motion and sensor). B) PPG: Uses simple
+optical sensor to capture strong signal, due to short distance and lesser noise. C) rPPG ex-
+traction: a coarse rPPG signal is obtained by selecting an ROI (e.g., cheeks or forehead) and
+averaging the pixels from each frame to extract a temporal signal
+
 ![RPPGVIS](rppgvis.png)
 ![DEID](deid.png)
 
