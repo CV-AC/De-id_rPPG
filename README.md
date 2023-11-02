@@ -19,8 +19,8 @@ Dataset1: <br>
 ├──├── bvp.npy ( array with grountruth bvp signal [T]) <br>
 ├──├── lnd.npy ( array containing landmarks [T,68,2]) <br>
 <br>
-If your dataset is processed in this way, with some minimal code changes you can use our dataloader as described by the following steps
-First in the folds folder create a new labels txt file similar as the one provided for pure and run create_rppg_folds_blocks_PURE.py to create a list of training and validation samples. 
+If your dataset is processed in this way, with some minimal code changes you can use our dataloader as described by the following steps.
+First in the folds folder create a new labels txt file similar as the one provided for PURE and run create_rppg_folds_blocks_PURE.py to create a list of training and validation samples. 
 
 ## Pre-training
 Please make sure your dataset is processed as described above. As the rPPG networks and De-identification networks are all pre-trained using the following scripts. They all use the load_cropped_blocks_rppg_pure.py dataloader, as it contains the real bvp groundtruth data, load_cropped_blocks_rppg_pure_withphysgt.py is mean only for autoencoder training as the groundtruth is replaced with rPPG method predictions obtained with the unaltered input data. 
