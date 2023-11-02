@@ -23,7 +23,7 @@ If your dataset is processed in this way, with some minimal code changes you can
 First in the folds folder create a new labels txt file similar as the one provided for PURE and run create_rppg_folds_blocks_PURE.py to create a list of training and validation samples. 
 
 ## Pre-training
-Please make sure your dataset is processed as described above. As the rPPG networks and De-identification networks are all pre-trained using the following scripts. They all use the load_cropped_blocks_rppg_pure.py dataloader, as it contains the real bvp groundtruth data, load_cropped_blocks_rppg_pure_withphysgt.py is mean only for autoencoder training as the groundtruth is replaced with rPPG method predictions obtained with the unaltered input data. 
+Please make sure your dataset is processed as described above. The rPPG networks and De-identification networks are all pre-trained using the following scripts. They all use the load_cropped_blocks_rppg_pure.py dataloader, as it contains the real bvp groundtruth data, load_cropped_blocks_rppg_pure_withphysgt.py is meant only for autoencoder training as the groundtruth is replaced with rPPG method predictions obtained with the unaltered input data. <br>
 Use train_idnet.py to train the ID recogniser networks on the chosen data. And the train_physformer.py, train_physnet, train_chrom (doesn't train but gets saves the signals for autoencoder training) to train the rPPG methods and save the signals that will be used with the load_cropped_blocks_rppg_pure_withphysgt.py dataloader.
 
 
