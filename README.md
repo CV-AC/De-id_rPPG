@@ -11,7 +11,7 @@ The original videos are firstly preprocessed to crop and resizethe videos intro 
 Dataset1: <br>
 ├── Sample1  <br>
 ├──├── blocks (containts [64,128,128] ordered segments of videos) <br>
-││  ├── 001.npy  <br>
+├──├──├── 001.npy  <br>
 ├──├──├── XXX.npy <br>
 ├──├── mask (containts [64,128,128] ordered masks of videos, useful for traditional methods) <br>
 ├──├──├── 001.npy <br>
