@@ -1,7 +1,7 @@
 # De-identification of facial videos while preserving remote physiological utility
 This is the official code repository of our BMVC 2023 paper "De-identification of facial videos while preserving remote physiological utility". Our method can de-identify videos from machines, while preserving the visual quality and unerlying rPPG signals. For more details, please read our pubblication.
 
-[Paper](add link), [Poster](add link), [Video](add link)
+You can find the paper, poster and video at https://proceedings.bmvc2023.org/230/
 
 
 ![RPPGVIS](rppgvis.png)
@@ -42,5 +42,12 @@ Finally, when all the data processing and pre-training is done, you can use Trai
 
 ## Citation
 
-```
+@inproceedings{Savic_2023_BMVC,
+author    = {Marko Radisa Savic and Guoying Zhao},
+title     = {De-identification of facial videos while preserving remote physiological utility},
+booktitle = {34th British Machine Vision Conference 2023, {BMVC} 2023, Aberdeen, UK, November 20-24, 2023},
+publisher = {BMVA},
+year      = {2023},
+url       = {https://papers.bmvc2023.org/0230.pdf}
+}
 
